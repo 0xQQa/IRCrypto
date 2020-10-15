@@ -1,0 +1,3 @@
+/home/qqa/CLionProjects/IRCC-master/Server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/qqa/CLionProjects/IRCC-master/Server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/qqa/CLionProjects/IRCC-master/Server/cmake-build-debug/CMakeFiles/Server.dir

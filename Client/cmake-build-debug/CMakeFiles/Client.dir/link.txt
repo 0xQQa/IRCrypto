@@ -1,0 +1,1 @@
+/usr/bin/clang -g   CMakeFiles/Client.dir/start_routine.c.o CMakeFiles/Client.dir/ClientActions/client_actions.c.o CMakeFiles/Client.dir/home/qqa/CLionProjects/IRCC-master/Crypto/rsa.c.o CMakeFiles/Client.dir/home/qqa/CLionProjects/IRCC-master/Utilities/common_func.c.o  -o Client  -lpthread /usr/lib/libgmp.so -lcurses -lform 
