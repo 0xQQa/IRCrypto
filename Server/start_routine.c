@@ -39,7 +39,7 @@ int main(int argc, char **argv) {
         err_exit("can not bind socket\n", NULL);
     }
 
-    if ((listen(server_socket_fd, (int)max_queued_clients)) != 0) {
+    if ((listen(server_socket_fd, max_queued_clients)) != 0) {
         close(server_socket_fd);
         err_exit("can not listen\n", NULL);
     }
