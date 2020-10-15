@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
     if (errno == EINVAL || errno == ERANGE) err_exit("can not resolve port number\n", NULL);
 
     max_queued_clients = (int)strtol(argv[2], &tmp_pointer, 10);
-    if (errno == EINVAL || errno == ERANGE) err_exit("can not resolve max clients amount\n", NULL);
+    if (errno == EINVAL || errno == ERANGE) err_exit("can not resolve max queued clients amount\n", NULL);
 
     max_clients = (int)strtol(argv[3], &tmp_pointer, 10);
     if (errno == EINVAL || errno == ERANGE) err_exit("can not resolve max clients amount\n", NULL);
