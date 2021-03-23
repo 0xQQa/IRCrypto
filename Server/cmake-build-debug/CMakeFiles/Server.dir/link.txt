@@ -1,1 +1,0 @@
-/usr/bin/clang -g   CMakeFiles/Server.dir/start_routine.c.o CMakeFiles/Server.dir/ServerActions/server_actions.c.o CMakeFiles/Server.dir/ClientLists/client_lists.c.o CMakeFiles/Server.dir/home/qqa/CLionProjects/IRCC-master/Utilities/common_func.c.o CMakeFiles/Server.dir/home/qqa/CLionProjects/IRCC-master/Crypto/rsa.c.o  -o Server  -lpthread /usr/lib/libgmp.so 
